@@ -1,0 +1,6 @@
+framework module Pods_DYShow {
+  umbrella header "Pods-DYShow-umbrella.h"
+
+  export *
+  module * { export * }
+}

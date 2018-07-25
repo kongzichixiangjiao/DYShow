@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>interval</key>
+		<integer>2</integer>
+		<key>text</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>interval</key>
+		<integer>2</integer>
+		<key>text</key>
+		<string>问你何时曾看见</string>
+	</dict>
+	<dict>
+		<key>interval</key>
+		<integer>2</integer>
+		<key>text</key>
+		<string>这世界为了人们改变</string>
+	</dict>
+	<dict>
+		<key>interval</key>
+		<integer>2</integer>
+		<key>text</key>
+		<string>有了梦寐以求的容颜</string>
+	</dict>
+	<dict>
+		<key>interval</key>
+		<integer>2</integer>
+		<key>text</key>
+		<string>是否就算是拥有春天！</string>
+	</dict>
+</array>
+</plist>

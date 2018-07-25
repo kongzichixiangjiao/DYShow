@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>interval</key>
+		<integer>4</integer>
+		<key>text</key>
+		<string>想起了初爱 想起最初的梦已不在</string>
+	</dict>
+	<dict>
+		<key>interval</key>
+		<integer>3</integer>
+		<key>text</key>
+		<string>想起青春 曾无畏无惧 无所谓失败</string>
+	</dict>
+	<dict>
+		<key>interval</key>
+		<integer>4</integer>
+		<key>text</key>
+		<string>当时看见彩虹就笑开 一无窒碍在胸怀</string>
+	</dict>
+	<dict>
+		<key>interval</key>
+		<integer>4</integer>
+		<key>text</key>
+		<string>带你抛下课堂 翻过围墙 只为了往一片大海</string>
+	</dict>
+</array>
+</plist>
