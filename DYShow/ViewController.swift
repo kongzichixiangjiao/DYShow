@@ -8,6 +8,9 @@
 
 import UIKit
 import Each
+import SVProgressHUD
+import MBProgressHUD
+import SwiftProgressHUD
 
 class DYConfig {
     static let plistName: String = "chuai"
@@ -41,16 +44,30 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
+    @IBAction func b(_ sender: Any) {
+        print("2222")
+    }
     var dataSource: [[String : Any]] = []
     var currentCount: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        initViews()
-        initData()
-        initTableView()
-        start()
+//        initViews()
+//        initData()
+//        initTableView()
+//        start()
+        
+        SVProgressHUD.setMaxSupportedWindowLevel(UIWindowLevelStatusBar)
+        SVProgressHUD.show(withStatus: "222")
+        
+        
+//        let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
+//        hud.mode = MBProgressHUDMode.customView
+//        hud.label.text = "123123"
+//        hud.progress = 0.3
+        
+        
     }
     
     func initViews() {
@@ -91,7 +108,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        tableView.scrollToRow(at: IndexPath(item: 0, section: 0), at: UITableViewScrollPosition.middle, animated: true)
+//        tableView.scrollToRow(at: IndexPath(item: 0, section: 0), at: UITableViewScrollPosition.middle, animated: true)
     }
     
     override func didReceiveMemoryWarning() {
